@@ -1,0 +1,74 @@
+.secaoContato {
+  height: 100%;
+  padding: 60px 10px;
+}
+
+
+.contatoContainer {
+  padding: 50px 0;
+  display: flex;
+
+  background-color: var(--background-gray-light);
+  border: 3px solid var(--background-gray);
+  border-radius: 0 45px 0 45px;
+}
+.contatoInformacao {
+  width: calc(70% - 10px);
+  min-width: 300px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contatoInformacao span {
+  padding: 0 25px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.linksContainer {
+  position: relative;
+  width: calc(30% - 10px);
+  padding: 0 10px;
+  min-width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.linksContainer::before {
+  content: ' ';
+  position: absolute;
+
+  height: 90%;
+  width: 2px;
+  background-color: var(--background-gray);
+  left: 0;
+  bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .contatoContainer {
+    flex-direction: column;
+  }
+  .contatoInformacao {
+    width: 100%;
+  }
+  .linksContainer {
+    padding: 20px 0;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .linksContainer::before {
+    height: 2px;
+    width: 90%;
+    top: 0;
+    right: 5%;
+    left: 5%;
+  }
+}

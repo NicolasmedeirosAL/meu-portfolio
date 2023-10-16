@@ -1,0 +1,27 @@
+.card {
+  width: 100px;
+  margin: 5px 10px;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+}
+
+.card figure {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardImage {
+  width: 40px;
+  height: auto;
+}
+.card figcaption {
+  font-weight: 600;
+  text-transform: uppercase;
+}

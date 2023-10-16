@@ -1,0 +1,53 @@
+.secaoSobre {
+  padding: 60px 10px;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.sobreContainer {
+  padding: 40px;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--background-gray-light);
+
+  border: 3px solid var(--background-gray);
+  border-radius: 35px 0 35px 0;
+}
+
+.informacaoContainer {
+  height: 100%;
+  padding: 20px 0;
+  max-width: 770px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.informacaoContainer p {
+  font-size: 22px;
+}
+.informacaoContainer b {
+  color: var(--font-color);
+}
+
+@media screen and (max-width: 768px) {
+  .sobreContainer {
+    padding: 18px;
+  }
+  .informacaoContainer p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sobreContainer {
+    padding: 15px;
+  }
+  .informacaoContainer p {
+    font-size: 16px;
+  }
+}

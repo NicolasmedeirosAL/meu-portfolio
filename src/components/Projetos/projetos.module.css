@@ -1,0 +1,34 @@
+.projetos {
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projetosContainer {
+  padding: 60px 10px;
+  width: 100%;
+  background-color: var(--background-gray-light);
+  height: auto;
+}
+
+.textoProjetos p {
+  font-family: var(--font-roboto);
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.slider {
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 0;
+  margin: 0 30px;
+}
+.slider > div {
+  padding: 20px 0;
+}

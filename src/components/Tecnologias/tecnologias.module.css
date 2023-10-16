@@ -1,0 +1,60 @@
+.secaoTecnologia {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--background-gray-light);
+}
+
+.cardsConteudo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsConteudo h3 {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 46px;
+  position: relative;
+  padding: 0;
+}
+
+.cardsConteudo h3::after {
+  content: none;
+}
+.cardsContainer {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  width: 100%;
+
+  padding: 10px;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 10px;
+
+  border: 1px solid var(--background3);
+  box-shadow: 0px 0px 10px 3px var(--background-shadow-gray-dark);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+}

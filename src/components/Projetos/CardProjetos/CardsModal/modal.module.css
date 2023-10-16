@@ -1,0 +1,126 @@
+/* ========================== Modal====================== */
+.modalBackground {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes escala {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.modalContainer {
+  position: fixed;
+
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--background-gray-light);
+  border-radius: 25px;
+
+  box-shadow: inset 0px 0px 20px 0px;
+
+  transform-origin: center;
+  animation: escala 0.3s ease-out;
+
+  gap: 15px;
+}
+/* ==================== Modal-Info============================= */
+.closeBtn button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  background-color: transparent;
+  box-shadow: 0px 0px 5px #000;
+  transition: 0.5s;
+}
+.closeBtn button:hover {
+  transform: scale(1.1);
+}
+
+.modalInformacao h3 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.modalImagem {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.modalButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.modalButtons button {
+  width: 150px;
+  height: 35px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  border: 1px solid var(--font-color);
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    var(--background-gray) 0%,
+    var(--background-gray-light) 70%
+  );
+  transition: all 0.3s;
+
+ 
+}
+
+.modalButtons button a {
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+}
+
+.modalButtons a:visited {
+  color: var(--font-color);
+}
+
+.modalButtons button:hover {
+  box-shadow: 0px 0px 15px var(--background-shadow-gray);
+  background: linear-gradient(
+    90deg,
+    var(--background-gray-light) 0%,
+    var(--background-gray) 70%
+  );
+  color: var(--font-color);
+}

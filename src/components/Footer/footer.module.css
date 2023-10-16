@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--background-gray-light);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  text-align: center;
+}
+
+.repositorio {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.repositorio a {
+  color: #fff;
+  padding: 0 5px;
+  margin: 0 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: var(--background-gray);
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
