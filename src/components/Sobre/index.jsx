@@ -23,7 +23,7 @@ const Sobre = () => {
             Continuarei aprimorando minhas hábilidades em 
             JavaScript sendo assim estarei me aprofundando mais em : front-end(
             <b>React.js, Next.js, Angular ,TailwindCSS </b>) e também no  Back-end(
-            <b>TypeScript, Node.js, Express.js e API, MongoDB</b>).
+            <b>TypeScript, Node.js, Express.js , API e MongoDB</b>).
           </p>
         </div>
       </div>

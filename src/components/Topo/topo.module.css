@@ -33,7 +33,7 @@
 
 }
 .navBar a:visited {
-  color: #000;
+  color: var(--font-color);
 }
 
 .navBar a::after {

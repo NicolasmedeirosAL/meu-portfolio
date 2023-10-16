@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className={style.repositorio}>
           <p>Repositório do Portfólio: </p>
-          <a href="https://github.com/NicolasmedeirosAL/portfolio"target='_blank'>Aqui</a>
+          <a href="https://github.com/NicolasmedeirosAL/meu-portfolio"target='_blank'>Aqui</a>
         </div>
       </div>
     </div>
