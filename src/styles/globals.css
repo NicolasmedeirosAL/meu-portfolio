@@ -21,12 +21,7 @@
   font-family: var(--font-poppins);
 }
 
-main {
-  background-image: url('../../src/assets/background-code.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 .limite-secao {
   width: 100%;
   max-width: 1024px;
