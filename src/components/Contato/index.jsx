@@ -6,6 +6,7 @@ import GithubSvg from '@/assets/imgContato/github.svg'
 import WhatsappSvg from '@/assets/imgContato/whatsapp.svg'
 import style from './contato.module.css'
 
+
 import BotaoContato from './BotaoContato'
 const Contato = () => {
   return (

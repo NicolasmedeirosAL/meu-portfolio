@@ -10,6 +10,7 @@ import imgBg from '@/assets/background-code.jpg'
 
 
 FIXED: 'Corrigido erro na background em que o fundo ficava branco'
+
 const Home = () => {
   return (
     <>

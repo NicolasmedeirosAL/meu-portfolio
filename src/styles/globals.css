@@ -74,21 +74,3 @@ h3::after {
   background-color: var(--background-gray);
 }
 
-/* ============================= section dividers================== */
-.divider-1 {
-  height: 2px;
-  background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
-  );
-}
-
-.divider-2 {
-  height: 2px;
-  background: linear-gradient(
-    270deg,
-    hsla(var(--hue), 65%, 88%, 0.34),
-    hsla(var(--hue), 36%, 57%, 1)
-  );
-}

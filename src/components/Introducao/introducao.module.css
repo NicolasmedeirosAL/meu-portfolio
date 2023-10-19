@@ -29,10 +29,10 @@
 
 .imgIntro {
   position: absolute;
+  left: -180px;
   width: 300px;
   height: 500px;
   object-fit: cover;
-  left: -180px;
   border: 1px solid var(--background-gray);
   border-radius: 50%;
   background-color: var(--background-gray-light);
@@ -40,9 +40,9 @@
 
 .informacoesContainer {
   padding: 10px 10px;
-  max-height: 550px;
-  height: auto;
   margin-left: 100px;
+  height: auto;
+  max-height: 550px;
   display: flex;
   flex-direction: column;
 }
