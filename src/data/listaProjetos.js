@@ -4,7 +4,7 @@ import imgFormularioViagens from '@/assets/imgProjetos/formulario-de-viagens.png
 import imgGelateria from '@/assets/imgProjetos/gelateria.png'
 import imgRestaurant from '@/assets/imgProjetos/restaurant.png'
 import imgOticaVida from '@/assets/imgProjetos/otica-vida.png'
-
+import imgTodoApp from '@/assets/imgProjetos/todo-app.png'
 
 export const dadosProjetos = [
   {
@@ -62,5 +62,13 @@ export const dadosProjetos = [
     imagem:imgOticaVida,
     site:'https://oticas-vida-gray.vercel.app/',
     repositorio:'https://github.com/NicolasmedeirosAL/oticas-vida'
+  }
+  ,{
+    titulo:'To-do App',
+    tecnologias:['Html5','Css3','JavaScript','Next.js'],
+    descricao:'Aplicativo To-do(Lista de tarefas) para ajudar a organizar seu dia e economizar tempo.',
+    imagem:imgTodoApp,
+    site:'https://to-do-puce-zeta.vercel.app/',
+    repositorio:'https://github.com/NicolasmedeirosAL/to-do-app',
   }
 ]
